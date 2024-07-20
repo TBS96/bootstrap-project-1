@@ -4,7 +4,9 @@ const icon = btn.querySelector("i");
 
 let isToggled  = false;
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click', (e) => {
+
+    e.preventDefault();
 
     isToggled = !isToggled;
     body.style.setProperty("--valueBg", isToggled ? "#1f1f1f" : "#f3eded");
