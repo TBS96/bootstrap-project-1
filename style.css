@@ -1,0 +1,11 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    --valueBg: #f3eded;
+    --valueText: #1f1f1f;
+    background-color: var(--valueBg);
+    color: var(--valueText);
+    transition: background-color 1s;
+}
