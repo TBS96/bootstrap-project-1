@@ -15,11 +15,14 @@ body{
 /* card hover fx */
 .forCardHover{
     transition: ease all 0.2s;
+    border-radius: 8px;
 }
 
 .forCardHover:hover{
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    cursor: pointer;
+    border: 1px solid black;
 }
 
 .forCardHover-2{
@@ -30,4 +33,18 @@ body{
 .forCardHover-2:hover{
     transform: scale(0.95);
     cursor: pointer;
+}
+
+.forCardHover-3{
+    transition: ease all 0.2s;
+    border-radius: 8px;
+    background-color: beige;
+}
+
+.forCardHover-3:hover{
+    /* transform: scale(1.02); */
+    box-shadow: 0 10px 20px rgba(13, 4, 138, 0.12), 0 4px 8px rgba(129, 2, 91, 0.06);
+    cursor: pointer;
+    border: 1px solid rgba(21, 8, 204, 0.836);
+    background-color: transparent;
 }
