@@ -48,3 +48,11 @@ body{
     border: 1px solid rgba(21, 8, 204, 0.836);
     background-color: transparent;
 }
+
+.sixthSectionImg{
+    background-image: url(imgs/headphoneSlide.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
